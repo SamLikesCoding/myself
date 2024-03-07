@@ -15,7 +15,6 @@ export default function PageNav({props}) {
 
     const [menuActive, setActive] = useState(false);
     const clickHandle = () => setActive(!menuActive);
-    console.log(props[0]);
 
     return(
         <>

@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
 
-  const [ActivePage, setPage] = useState(() => RegComponents.Hello);
+  const [ActivePage, setPage] = useState(() => RegComponents.Skills);
 
   const ToolbarProps = [
     {

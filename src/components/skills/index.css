@@ -1,13 +1,51 @@
 .page-container {
-    height: 100vh;
-    width: 100vh;
     display: flex;
-    flex-direction: column;
-    margin: 0;
+    position: relative;
+    width: 100vw;
+    height: max-content;
     justify-content: center;
     align-items: center;
 }
 
-.title {
-    top: 100px;
+.content-header {
+    padding: 10ch;
+    width: 280px;
+    display: block;
+}
+
+.list-container {
+    justify-content: center;
+}
+
+.list-item {
+    height: 10px;
+    width: 360px;
+    margin: 1ch;
+    padding: 2ch;
+    justify-content: center;
+    border: solid 0.2px;
+    border-radius: 0.7ch;
+    transition: height 0.5s;
+    overflow: hidden;
+}
+
+.list-item:hover {
+    height: 240px;
+}
+
+.skill-name {
+    font-weight: bold;
+    font-size: 20;
+}
+
+.skill-conf {
+    padding-top: 1em;
+    font-weight: lighter;
+    font-size: 14;
+}
+
+.skill-descp {
+    padding-top: 4px;
+    font-weight: lighter;
+    font-size: 7;
 }
