@@ -1,0 +1,108 @@
+{
+    "intro": {
+        "name": "Sarath Peter",
+        "roles": [
+            "Software Developer 👨🏻‍💻",
+            "Computer Science Enthusiast 💻",
+            "Cinephile 🎬",
+            "Chess Player ♖"
+        ],
+        "git_url": "https://github.com/SamLikesCoding"
+    },
+    "about_me": [
+       "Looking forward for oppourtunities in Programming, to holster new skills and work on projects in order to gain more experience.",
+       "Career aside, i do see myself as computer science fanatic, eager to explore newer domains of work or projects and i do code for fun"      
+    ],
+    "career": [
+        {
+            "role": "Student Assistant - Creation and Applications of Knowledge Graphs",
+            "org": "L3S, Gottfried Wilhelm Leibniz University",
+            "location": "Hannover, Germany",
+            "duration": "September 2023 - February 2024",
+            "description": [
+                "The role consists of assisting professor for the course 'Creation and Applications of Knowledge Graphs'.",
+                "The tasks are more directed in management of assignments and exercises, comprised of coding and theortical tasks."
+            ],
+            "keywords": ["Knowledge Graphs", "Pytorch-Geometric", "Machine Learning", "Python"]
+        },
+        {
+            "role": "Student Developer (Fullstack)",
+            "org": "Sentics",
+            "location": "Wolfsburg, Germany",
+            "duration": "February 2023 - April 2023",
+            "description": [
+                "At time of work, I was assigned to project which utilizes AI to monitor warehouse machinery and prevent accidents.",
+                "My role is to aid in building UI interfaces for the project, visualize metrics and cases."
+            ],
+            "keywords": ["Web Development", "React.js", "Next.js", "Nest.js", "QuestDB", "Docker"]
+        },
+        {
+            "role": "App Development - Flutter",
+            "org": "Spotix",
+            "location": "Thrissur, India",
+            "duration": "September 2021 - November 2021",
+            "description": [
+                "As App Developer, the tasks are to build and assist flutter based projects for the organisation.",
+                "With flutter-framework, the projects are varied from web to mobile apps"
+            ],
+            "keywords": ["Flutter, UI, iOS, Android, Web Development"]
+        }
+    ],
+    "skills": [
+        {
+            "skill_name": "Python",
+            "confidence": "fluent",
+            "description": [
+                "Present choice of language for most of the coding i do. Mostly used to Jupyter notebooks and NumPy computations",
+                "Nowadays, I do use it for practicing Machine Learning Projects"
+            ]
+        },
+        {
+            "skill_name": "Dart",
+            "confidence": "intermediate",
+            "description": [
+                "I was introduced to the language, when working on Flutter framework.",
+                "I would not consider strong choice, but still i do have a little confidence in coding"
+            ]
+        },
+        {
+            "skill_name": "C++",
+            "confidence": "intermediate",
+            "description": [
+                "A language i prefered before Python. Used to code a lots of script back in school days",
+                "Now, i'm trying to give a second chance, been learning for projects. Just curious stuff"
+            ]
+        },
+        {
+            "skill_name": "Typescript",
+            "confidence": "intermediate",
+            "description": [
+                "My early days of career deals with Full-stack projects (both frontend and backend)",
+                "This website is a good example of for projects"
+            ]
+        },
+        {
+            "skill_name": "Java",
+            "confidence": "intermediate",
+            "description": [
+                "Used to work to build Andorid Apps, before switching to flutter"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "level": "Bachelors in Engineering",
+            "domain": "Computer Science",
+            "university": "APJ Abdul Kalam Technological University",
+            "year": "2015 - 2019",
+            "location": "Thrissur, India"
+        },
+        {
+            "level": "Masters Degree",
+            "domain": "Geodesy and Geoinfomatics",
+            "university": "Gottfreid Wiilhelm Leibniz University",
+            "year": "2022 - Ongoing",
+            "location": "Hannover, Germany"
+        }
+    ]
+}
