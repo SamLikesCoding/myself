@@ -8,11 +8,11 @@ export default function skills() {
 
     return (
         <>
-            <div className='page-container'>
+            <div className='content-container'>
                 <div className='content-header'>
                     <h2>I can do</h2>
                     <p style={{textAlign:'justify'}}>{descp}</p>
-                    <p>Click cards to reveal.</p>
+                    <p style={{fontFamily:'monospace'}}>Click cards to reveal.</p>
                 </div>
                 <div className='list-container'>
                     {
@@ -27,6 +27,7 @@ export default function skills() {
                         })
                     }
                 </div>
+                <img src={Assets.basicBackground} alt="old-tags"/>
             </div>
         </>
     );

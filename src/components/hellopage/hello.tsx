@@ -1,5 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
+import { toast, ToastContainer, Slide } from 'react-toastify';
 import Assets from "../assetsLoader";
+import 'react-toastify/dist/ReactToastify.css';
 import "./index.css";
 
 export default function HelloPage() {
@@ -13,6 +15,7 @@ export default function HelloPage() {
   }, []);
 
   useEffect(() => {
+    toast("Click 'start' to explore more");
     const intvID = setInterval(changeRole, 500);
     return () => clearInterval(intvID);
   }, [changeRole]);
@@ -20,7 +23,6 @@ export default function HelloPage() {
   return (
     <>
       <div className="intro-container">
-        
         <img src={Assets.introImage} />
         <div
           id="info-card"
@@ -30,7 +32,6 @@ export default function HelloPage() {
             right:'20vw'
           }}
         >
-          
           <div style={{
             fontFamily: Assets.mainFont, 
             fontSize:18, 
@@ -56,10 +57,15 @@ export default function HelloPage() {
           </div>
 
         </div>
-        <div>
-          click on start to begin
-        </div>
       </div>
+      <ToastContainer 
+        position="top-left"
+        hideProgressBar={true}
+        theme="dark"
+        closeOnClick
+        limit={1}
+        transition={Slide}
+      />
     </>
   );
 }
