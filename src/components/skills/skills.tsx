@@ -9,6 +9,7 @@ export default function skills() {
     return (
         <>
             <div className='content-container'>
+                <img src={Assets.basicBackground} alt="old-tags"/>
                 <div className='content-header'>
                     <h2>I can do</h2>
                     <p style={{textAlign:'justify'}}>{descp}</p>
@@ -27,7 +28,6 @@ export default function skills() {
                         })
                     }
                 </div>
-                <img src={Assets.basicBackground} alt="old-tags"/>
             </div>
         </>
     );

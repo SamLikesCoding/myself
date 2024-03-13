@@ -1,0 +1,59 @@
+
+.career-page {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.job-list {
+    padding: 2ch;
+    margin: 1ch;
+    background: black
+}
+
+.job-card {
+    width: 270px;
+    padding: 12px;
+    border: solid 0;
+    border-radius: 0;
+    transition: all 450ms ease-in-out;
+}
+
+.job-card:hover {
+    border: solid 2px;
+    border-radius: 0.81em;
+    margin: 12px;
+    padding: 2em;
+}
+
+.job-info {
+    width: 30vw;
+    height: fit-content;
+}
+
+.back-button {
+    font-family: monospace;
+    border: dotted 2px;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    padding: 1ch;
+    padding-left: 2ch;
+    padding-right: 2ch;
+    width: fit-content;
+    transition: all 450ms;
+}
+
+.back-button:hover {
+    background-color: white;
+    color: black;
+    margin: 3px;
+}
+

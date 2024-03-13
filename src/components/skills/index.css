@@ -1,9 +1,9 @@
 .content-container {
     display: grid;
-    grid-template-columns: auto 18vw 35vw;
+    grid-template-columns: auto auto auto;
     height: 100vh;
     width: 100vw;
-    justify-content: space-evenly;
+    justify-content: space-betweens;
     align-items: center;
 }
 
@@ -52,6 +52,6 @@
 
 .content-container > img {
     height: 100vh;
-    width: 45vw;
+    width: 48vw;
     object-fit: cover;
 }

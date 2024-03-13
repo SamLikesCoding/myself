@@ -16,13 +16,18 @@ function App() {
       pageKey: 'skillPage',
       label: 'Skills',
       action: () => setPage(() => RegComponents.Skills)
+    },
+    {
+      pageKey: 'careerPage',
+      label: 'Career',
+      action: () => setPage(() => RegComponents.Career)
     }
   ];
 
   return (
     <>
-      <RegComponents.Toolbar props={ToolbarProps}/>
       <ActivePage />
+      <RegComponents.Toolbar props={ToolbarProps}/>
     </>
   )
 }

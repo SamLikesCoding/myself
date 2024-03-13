@@ -23,12 +23,7 @@
         "The role consists of assisting professor for the course 'Creation and Applications of Knowledge Graphs'.",
         "The tasks are more directed in management of assignments and exercises, comprised of coding and theortical tasks."
       ],
-      "keywords": [
-        "Knowledge Graphs",
-        "Pytorch-Geometric",
-        "Machine Learning",
-        "Python"
-      ]
+      "keywords": "Knowledge Graphs, Pytorch-Geometric, Machine Learning, Python"     
     },
     {
       "role": "Student Developer (Fullstack)",
@@ -39,14 +34,7 @@
         "At time of work, I was assigned to project which utilizes AI to monitor warehouse machinery and prevent accidents.",
         "My role is to aid in building UI interfaces for the project, visualize metrics and cases."
       ],
-      "keywords": [
-        "Web Development",
-        "React.js",
-        "Next.js",
-        "Nest.js",
-        "QuestDB",
-        "Docker"
-      ]
+      "keywords": "Web Development, React.js, Next.js, Nest.js, QuestDB, Docker"
     },
     {
       "role": "App Development - Flutter",
