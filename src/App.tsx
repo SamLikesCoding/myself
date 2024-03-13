@@ -21,6 +21,16 @@ function App() {
       pageKey: 'careerPage',
       label: 'Career',
       action: () => setPage(() => RegComponents.Career)
+    },
+    {
+      pageKey: 'eduPage',
+      label: 'Education',
+      action: () => setPage(() => RegComponents.Education)
+    }, 
+    {
+      pageKey: 'contactPage',
+      label: 'Contact',
+      action: () => setPage(() => RegComponents.Contact)
     }
   ];
 

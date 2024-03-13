@@ -18,6 +18,24 @@
     background: black
 }
 
+.job-list-expanded {
+    width: 30vw;
+    overflow: hidden;
+    animation: enterAnim 1s ease-in-out;
+}
+
+@keyframes enterAnim {
+    0% {
+        height: 0;
+    }
+    50%{
+        height: 45vh;
+    }
+    100% {
+        height: max-content;
+    }
+}
+
 .job-card {
     width: 270px;
     padding: 12px;

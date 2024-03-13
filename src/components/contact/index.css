@@ -1,0 +1,15 @@
+.contact-page {
+    width: 100vw;
+    height: 100vh;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.contact-info {
+    z-index: 4;
+    position: absolute;
+    padding: 3ch;
+    font-size: 20px;
+}

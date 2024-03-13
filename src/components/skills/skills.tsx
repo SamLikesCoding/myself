@@ -8,27 +8,29 @@ export default function skills() {
 
     return (
         <>
-            <div className='content-container'>
-                <img src={Assets.basicBackground} alt="old-tags"/>
-                <div className='content-header'>
-                    <h2>I can do</h2>
-                    <p style={{textAlign:'justify'}}>{descp}</p>
-                    <p style={{fontFamily:'monospace'}}>Click cards to reveal.</p>
+           <div className='skill-page' >
+                <img src={Assets.coverImage2} alt="Keyboard"/>
+                <div className='content-container'>
+                    <div className='content-header'>
+                        <h2>I can do</h2>
+                        <p style={{textAlign:'justify'}}>{descp}</p>
+                        <p style={{fontFamily:'monospace'}}>Click cards to reveal.</p>
+                    </div>
+                    <div className='list-container'>
+                        {
+                            skillData.map((obj, idx) => {
+                                return (
+                                    <div className='list-item' style={{backgroundColor:`-webkit-linear-gradient(12deg, ${obj.logo_grad.join(',')})`}} key={idx}>
+                                        <div className='skill-name'>{obj.skill_name}</div>
+                                        <div className='skill-conf'>Level: {obj.confidence}</div>
+                                        <div className='skill-descp'>{obj.description.join(' ')}</div>
+                                    </div>
+                                );
+                            })
+                        }
+                    </div>
                 </div>
-                <div className='list-container'>
-                    {
-                        skillData.map((obj, idx) => {
-                            return (
-                                <div className='list-item' style={{backgroundColor:`-webkit-linear-gradient(12deg, ${obj.logo_grad.join(',')})`}} key={idx}>
-                                    <div className='skill-name'>{obj.skill_name}</div>
-                                    <div className='skill-conf'>Level: {obj.confidence}</div>
-                                    <div className='skill-descp'>{obj.description.join(' ')}</div>
-                                </div>
-                            );
-                        })
-                    }
-                </div>
-            </div>
+           </div>
         </>
     );
 }

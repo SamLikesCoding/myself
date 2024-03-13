@@ -23,7 +23,7 @@ export default function HelloPage() {
   return (
     <>
       <div className="intro-container">
-        <img src={Assets.introImage} />
+        <img src={Assets.introImage} alt="me"/>
         <div
           id="info-card"
           className="info glass"
@@ -59,7 +59,7 @@ export default function HelloPage() {
         </div>
       </div>
       <ToastContainer 
-        position="top-left"
+        position="top-center"
         hideProgressBar={true}
         theme="dark"
         closeOnClick

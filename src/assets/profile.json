@@ -6,8 +6,7 @@
       "Computer Science Enthusiast 💻",
       "Cinephile 🎬",
       "Chess Player ♖"
-    ],
-    "git_url": "https://github.com/SamLikesCoding"
+    ]
   },
   "about_me": [
     "Looking forward for oppourtunities in Programming, to holster new skills and work on projects in order to gain more experience.",
@@ -20,7 +19,7 @@
       "location": "Hannover, Germany",
       "duration": "September 2023 - February 2024",
       "description": [
-        "The role consists of assisting professor for the course 'Creation and Applications of Knowledge Graphs'.",
+        "The role consists of assisting professor for the course 'Creation and Applications of Knowledge Graphs'. ",
         "The tasks are more directed in management of assignments and exercises, comprised of coding and theortical tasks."
       ],
       "keywords": "Knowledge Graphs, Pytorch-Geometric, Machine Learning, Python"     
@@ -31,7 +30,7 @@
       "location": "Wolfsburg, Germany",
       "duration": "February 2023 - April 2023",
       "description": [
-        "At time of work, I was assigned to project which utilizes AI to monitor warehouse machinery and prevent accidents.",
+        "At time of work, I was assigned to project which utilizes AI to monitor warehouse machinery and prevent accidents. ",
         "My role is to aid in building UI interfaces for the project, visualize metrics and cases."
       ],
       "keywords": "Web Development, React.js, Next.js, Nest.js, QuestDB, Docker"
@@ -42,7 +41,7 @@
       "location": "Thrissur, India",
       "duration": "September 2021 - November 2021",
       "description": [
-        "As App Developer, the tasks are to build and assist flutter based projects for the organisation.",
+        "As App Developer, the tasks are to build and assist flutter based projects for the organisation. ",
         "With flutter-framework, the projects are varied from web to mobile apps"
       ],
       "keywords": ["Flutter, UI, iOS, Android, Web Development"]
@@ -108,6 +107,23 @@
       "university": "Gottfreid Wiilhelm Leibniz University",
       "year": "2022 - Ongoing",
       "location": "Hannover, Germany"
+    }
+  ],
+  "contact": [
+    {
+      "ref": "GitHub",
+      "value": "https://github.com/SamLikesCoding",
+      "type": "link" 
+    },
+    {
+      "ref": "LinkedIn",
+      "value": "https://www.linkedin.com/in/sarath-peter/",
+      "type": "link"
+    },
+    {
+      "ref": "E-mail",
+      "value": "sarathpeterofficial@gmail.com",
+      "type": "email"
     }
   ]
 }
