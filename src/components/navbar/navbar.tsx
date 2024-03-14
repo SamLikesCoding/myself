@@ -5,7 +5,6 @@ import { DateSticker } from './dateSticker';
 export default function PageNav(props: any) {
 
     const timestamp = DateSticker();
-
     const [menuActive, setActive] = useState(false);
     const clickHandle = () => setActive(!menuActive);
 
