@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './index.css';
 import { DateSticker } from './dateSticker';
 
-export default function PageNav({props}) {
+export default function PageNav(props: any) {
 
     const timestamp = DateSticker();
 

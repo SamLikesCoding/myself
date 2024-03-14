@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 
 export const DateSticker = () => {
 
-    const locale = 'en';
     const [date, setDate] = useState(new Date());
 
     useEffect(() => {
@@ -14,7 +13,7 @@ export const DateSticker = () => {
         }
     }, []);
     
-    const curr_time = Date.now();
+    const curr_time = date;
     const timestamp = Intl.DateTimeFormat('en-DE', {
         year: 'numeric', 
         month: '2-digit',
