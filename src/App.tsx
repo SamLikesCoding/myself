@@ -1,6 +1,6 @@
 import RegComponents from './components/componentsLoader';
 import PageNav, { PageNavProps } from './components/navbar/navbar';
-import { useCallback, useState } from 'react';
+import { useState } from 'react';
 import './App.css'
 
 
@@ -33,14 +33,25 @@ function App() {
       label: "Career",
       action: handlePageIndex
     },
+    {
+      label: "Education",
+      action: handlePageIndex
+    },
+    {
+      label: "Contact",
+      action: handlePageIndex
+    },
   ]
 
 
   return (<>
     {
       pages.map((view, idx) => (
-        <div key={idx}>{view()}</div>
+        <div key={idx} className={pageIndex === idx? 'view-active':'view-hidden'}>{view()}</div>
       ))
+    }
+    {
+      PageNav(navProps)
     }
   </>);
 }
