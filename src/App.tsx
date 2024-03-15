@@ -38,9 +38,6 @@ function App() {
 
   return (<>
     {
-      PageNav(navProps)
-    }
-    {
       pages.map((view, idx) => (
         <div key={idx}>{view()}</div>
       ))
