@@ -2,7 +2,12 @@ import { useState } from 'react';
 import './index.css';
 import { DateSticker } from './dateSticker';
 
-export default function PageNav(props: any) {
+export interface PageNavProps {
+    label: String;
+    action: Function;
+};
+
+export default function PageNav(NavProps: PageNavProps[]) {
 
     const timestamp = DateSticker();
     const [menuActive, setActive] = useState(false);
@@ -16,9 +21,7 @@ export default function PageNav(props: any) {
             </div>
             <div id='nav-menu' className='nav-menu' style={{visibility:menuActive? 'visible':'hidden'}}>
             {
-                props.map((opt: any) => (
-                    <div key={opt.pageKey} onClick={() => {opt.action(); clickHandle();}}>{opt.label}</div>
-                ))
+                NavProps.map((obj, idx) => <div key={idx} onClick={() => {obj.action(idx); clickHandle()}}>{obj.label}</div>)
             }
             </div>
         </>

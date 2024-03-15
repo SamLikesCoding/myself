@@ -1,45 +1,59 @@
 import RegComponents from './components/componentsLoader';
+import PageNav, { PageNavProps } from './components/navbar/navbar';
 import { useState } from 'react';
 import './App.css'
 
+
 function App() {
 
-  const [ActivePage, setPage] = useState(() => RegComponents.Hello);
-
-  const ToolbarProps = [
-    {
-      pageKey: 'helloPage',
-      label: 'Who am i?',
-      action: () => setPage(() => RegComponents.Hello)
-    },
-    {
-      pageKey: 'skillPage',
-      label: 'Skills',
-      action: () => setPage(() => RegComponents.Skills)
-    },
-    {
-      pageKey: 'careerPage',
-      label: 'Career',
-      action: () => setPage(() => RegComponents.Career)
-    },
-    {
-      pageKey: 'eduPage',
-      label: 'Education',
-      action: () => setPage(() => RegComponents.Education)
-    }, 
-    {
-      pageKey: 'contactPage',
-      label: 'Contact',
-      action: () => setPage(() => RegComponents.Contact)
-    }
+  const pages = [
+    RegComponents.Hello,
+    RegComponents.Skills,
+    RegComponents.Career,
+    RegComponents.Education,
+    RegComponents.Contact
   ];
+ 
+  const [pageIndex, setIndex] = useState(0);
+  const handlePageIndex = (idx: number) => {
+    console.log('PageChange : '+idx)
+    setIndex(idx);
+  }
 
-  return (
-    <>
-      <ActivePage />
-      <RegComponents.Toolbar props={ToolbarProps}/>
-    </>
-  )
+  const navProps: PageNavProps[] = [
+    {
+      label: "Who am i",
+      action: handlePageIndex
+    },
+    {
+      label: "Skills",
+      action: handlePageIndex
+    },
+    {
+      label: "Career",
+      action: handlePageIndex
+    },
+    {
+      label: "Education",
+      action: handlePageIndex
+    },
+    {
+      label: "Contact",
+      action: handlePageIndex
+    },
+  ]
+
+
+  return (<>
+    {
+      pages.map((view, idx) => (
+        <div key={idx} className={pageIndex === idx? 'view-active':'view-hidden'}>{view()}</div>
+      ))
+    }
+    {
+      PageNav(navProps)
+    }
+  </>);
 }
 
 export default App
