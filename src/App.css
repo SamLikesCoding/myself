@@ -5,7 +5,7 @@
 
 body {
     z-index: -5;
-    overflow: hidden;
+    overflow: scroll;
     background: linear-gradient(
         90deg,
         rgb(45, 43, 43) 0%,
