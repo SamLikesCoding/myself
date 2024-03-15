@@ -26,33 +26,16 @@ body {
 }
 
 .view-active {
+    z-index: -2;
     display: grid;
-    animation: open-view 500ms ease;
+    height: 100vh;
 }
 
 .view-hidden {
-    max-height: 0;
+    height: 0;
     visibility: hidden;
-    animation: close-view 1s ease;
 }
 
-@keyframes open-view {
-    0% {
-        height: 0;
-    }
-    100% {
-        height: 100vh;
-    }
-}
-
-@keyframes close-view {
-    0% {
-        height: 100vh;
-    }
-    100% {
-        height: 0;
-    }
-}
 
 @font-face {
     font-family: "SF Pro";

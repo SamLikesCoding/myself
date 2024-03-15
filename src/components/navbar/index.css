@@ -9,7 +9,7 @@
     padding-right: 1ch;
     justify-content: space-between;
     overflow-x: hidden;
-    z-index: 4;
+    z-index: 10;
 }
 
 .nav-sect > div {

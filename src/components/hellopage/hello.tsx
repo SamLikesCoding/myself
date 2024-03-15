@@ -22,6 +22,14 @@ export default function HelloPage() {
 
   return (
     <>
+     <ToastContainer 
+        position="top-center"
+        hideProgressBar={true}
+        theme="dark"
+        closeOnClick
+        limit={1}
+        transition={Slide}
+      />
       <div className="intro-container">
         <img src={Assets.introImage} alt="me"/>
         <div
@@ -58,14 +66,6 @@ export default function HelloPage() {
 
         </div>
       </div>
-      <ToastContainer 
-        position="top-center"
-        hideProgressBar={true}
-        theme="dark"
-        closeOnClick
-        limit={1}
-        transition={Slide}
-      />
     </>
   );
 }
