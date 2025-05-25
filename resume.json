@@ -1,0 +1,75 @@
+{
+  "name": "Sarath Peter",
+  "desp": [
+    "Fullstack Developer",
+    "Chess Player",
+    "Master Student : Geodesy and Geoinfomatics",
+    "Cinephile"
+  ],
+  "aboutMe": [
+    "I'm an experienced Full Stack Developer and currently pursuing a Master’s degree in Geodesy and Geoinfomatics. I have a strong passion for exploring and developing innovative projects, with hands-on experience in machine learning, mobile and web application development as well as various freelance initiative",
+    "From an academic perspective, I have substantial experience in training machine learning models, processing measurement data for modeling purposes, and developing neural networks, especially in the field of image analysis. My current studies continue to deepen my technical foundation and interdisciplinary understanding in geospatial technologies and intelligent systems."
+   ],
+   "skills": [
+      {
+        "name": "Python",
+        "desp": "General choice of language, both web and ML"
+      },
+      {
+        "name": "TensorFlow",
+        "desp": "For Building ML models"
+      },
+	    {
+        "name": "PyTorch",
+        "desp": "Experienced in building Graph based ML"
+      },
+	    {
+        "name": "Pandas & NumPy",
+        "desp": "For data visualisation and analysis purposes"
+      },
+	    {
+        "name": "React",
+        "desp": "Web-Framework choice for web-app"
+      },
+      {
+        "name": "Typescript",
+        "desp": "For building backend development"
+      },
+      {
+        "name": "Flutter",
+        "desp": "Cross-platform for mobile app developments"
+      },
+	    {
+        "name": "Docker",
+        "desp": "Used for Container Orchestration"
+      }
+   ],
+   "workExp": [
+	      {
+          "title": "HiWi Student Assistant (Fullstack)",
+          "subtitle": "(Institut für Kartographie und Geoinfomatik : June 2024 - December 2024)",
+          "descp": "worked on web-apps using geolocation based data"
+        },
+	      {
+          "title": "HiWi Student Assistant",
+          "subtitle": "(Institut für Data Science : September 2023 - February 2024)",
+          "descp": "Assistance to Professor for managing Lecture : Knowledge Graphs (Assignment)"
+        },
+	      {
+          "title": "Student Developer (Fullstack)",
+          "subtitle": "(Sentics, Wolfsburg, February 2023 - April 2023)",
+          "descp": "Worked on Web-Interface for AI based project for Warehouse Safety"
+        },
+	      {
+          "title": "Mobile App Developer (Flutter) ",
+          "subtitle": "(Spotix, Thrissur : September  2021 - November 2021)",
+          "descp": "Worked on cross-platform app (iOS and Android)"
+        }
+   ],
+   "contact": {
+	    "email": "sarathpeterofficial@gmail.com",
+	    "github": "SamLikesCoding",
+      "linkedin": "https://www.linkedin.com/in/sarath-peter/",
+	    "whatsapp": "+4915756502863"
+   }
+}
