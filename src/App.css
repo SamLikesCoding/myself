@@ -1,0 +1,52 @@
+
+#mainboard {
+    height: 96vh;
+    width: 96vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    overflow: hidden;
+    margin: 0.5px;
+}
+
+.card {
+    display: flexbox;
+    overflow: hidden;
+}
+
+.rowCard {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.colCard {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.crumb {
+    width: auto;
+    height: 7%;
+    margin: 5px;
+    padding-inline-start: 12px;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    align-items: center;
+}
+
+.tab {
+    display: block;
+    overflow: hidden;
+    height: 3%;
+    margin-top: 2rem;
+    margin-left: 2em;
+    transition: 0.545s;
+    opacity: 0.4;
+}
+
+.tab:hover {
+    height: 50%;
+    background-color: #340068;
+    padding: 5px;
+    padding-left: 12px;
+    opacity: 1;
+}
