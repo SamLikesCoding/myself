@@ -1,5 +1,5 @@
 
-# Portfoli Webpage
+# Portfolio Webpage
 
 ### Story
 Initially, the webpage was built as React App for portfolio purpose. Then, i just decided 
