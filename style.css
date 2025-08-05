@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "SF-Pro";
+  src: url(assets/fonts/SF-Pro-Display-Regular.otf)
+}
+
+h1,
+h2,
+h3,
+h4,
+div,
+p {
+  font-family: "SF-Pro";
+  color: white;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+code {
+  color: grey;
+}
+
+body {
+  overflow: scroll;
+  background-color: black;
+}
+
+img {
+  width: 60px;
+  margin: 6px;
+}
