@@ -29,7 +29,7 @@ fetch("assets/resume.json").then(response => response.json()).then(
 
       var cardText = document.createElement('div');
       cardText.innerHTML = `
-        <div class="container row">
+        <div class="container col">
           <h5>${item.name}</h5><br>
           <code>${item.desp}</code>
         </div>
